@@ -10,7 +10,13 @@ public class Partida implements Compartible{
 	private Usuario user1;
 	private Usuario user2;
 	private Pregunta [] preguntas;
-	   
+	
+	
+	public void visualizar (){
+		System.out.println("Soy el rey del mambo");
+		
+	}
+	
 	 public Partida (Usuario u1, Usuario u2){  
 		 this.identificador+=1;
 		 this.user1=u1;
